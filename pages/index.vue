@@ -7,7 +7,7 @@
       </h1>
       <div class="links">
         <a
-          @click="$store.dispatch('update')"
+          @click="test()"
           class="button--green"
         >
           test
@@ -18,7 +18,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    test() {
+      this.$store.dispatch('update')
+      console.log(this.$store.state.octobay)
+    }
+  }
+}
 </script>
 
 <style>
