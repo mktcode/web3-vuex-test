@@ -1,4 +1,9 @@
-# test
+# Storing a Web3 Contract in a Vuex Store
+
+Install MetaMask: https://metamask.io/
+Web3 Contract docs: https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html
+
+### So...
 
 Why does this:
 
