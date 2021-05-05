@@ -17,6 +17,8 @@ cause this:
 
 ?
 
+First initialization works but second one causes multiple such errors.
+
 ## Build Setup
 
 ```bash
